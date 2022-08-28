@@ -18,7 +18,6 @@ body {
 .container {
     width: 550px;
     height: 390px;
-    background-color: blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 10px;
@@ -116,6 +115,9 @@ a {
     font-weight: 400px;
 }
 
+.attribution a {
+    color: hsl(158, 36%, 37%);
+}
 
 @media screen and (max-width:600px) {
    
